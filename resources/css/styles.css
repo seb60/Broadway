@@ -41,11 +41,7 @@ p {
     color: white
 }
 
-.Choices a {
+.btn-nav {
     color: white;
     font-size: 18px;
-}
-
-#list a {
-    color: white;
 }

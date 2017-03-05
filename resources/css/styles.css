@@ -1,34 +1,6 @@
-* {
+body {
     font-family: Helvetica, Arial, sans-serif;
     text-align: center;
-}
-
-footer {
-    color: white;
-    display: block;
-    background-color: gray;
-    text-align: left;
-}
-
-.Home, #pic {
-    background-image: url("../images/flatiron_building.jpg");
-    color: white;
-    background-size: cover;
-    background-position: 50%, 25%;
-}
-
-.Choices {
-    display: block;
-    line-height: 30px;
-}
-
-.Choices a {
-    color: white;
-    font-size: 18px;
-}
-
-.Choices li {
-    display: inline;
 }
 
 h1 {
@@ -48,4 +20,32 @@ h3 {
 
 p {
     font-size: 14px;
+}
+
+.Home, #pic {
+    background-image: url("../images/flatiron_building.jpg");
+    color: white;
+    background-size: cover;
+    background-position: 50%, 25%;
+}
+
+.Choices {
+    display: block;
+    line-height: 30px;
+}
+
+.footer {
+    text-align: left;
+    background-color: gray;
+    font-size: 11px;
+    color: white
+}
+
+.Choices a {
+    color: white;
+    font-size: 18px;
+}
+
+#list a {
+    color: white;
 }
